@@ -1,0 +1,363 @@
+
+<!-- saved from url=(0180)https://www.chase.com/index.jsp?pg_name=ccpmapp/shared/assets/page/chase-weblinking-disclosure&site=Facebook&url=https%3A//www.facebook.com/ChaseCommunityGiving/app_349872001764046 -->
+<html lang="EN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="keywords" content="article">
+<meta name="robots" content="noindex,nofollow">
+<script language="Javascript1.2" type="text/javascript" src="./nextstep_files/38855_cqtgmgt.js"></script>
+<title>Chase Weblinking Disclosure</title>
+<script type="text/javascript" id="personalizationScript" src="./nextstep_files/Personalization.js"></script><script type="text/javascript" id="pixelTagExtensionScript" src="./nextstep_files/tagmanagerextensions.js"></script><script src="./nextstep_files/chase-weblinking-disclosure"></script></head>
+<body><!--start chase-weblinking-disclosure-artcl--->
+<script language="JavaScript" src="./nextstep_files/copyright.js"></script>
+<style> 
+body { font-family: Arial, Helvetica, sans-serif;}
+ 
+DIV.mainL1 {
+ 
+	text-align:center; width:100%;
+ 
+}
+ 
+ 
+.pageBody { 
+    border:none;
+	border-top:0px;
+	padding: 0px;
+ 
+	width: 500px;
+ 
+}
+ 
+ 
+/*.pageBody {
+ 
+	border: solid #095aa6 4px;
+ 
+	border-top:0px;
+ 
+	padding: 0px;
+ 
+	width: 500px;
+ 
+}*/
+ 
+ 
+ 
+.contentBox {
+ 
+	padding: 15px;
+ 
+	padding-top:0px;
+ 
+}
+ 
+ 
+ 
+.logoBox {
+ 
+	padding-top: 14px;
+ 
+	padding-right: 0px;
+ 
+	padding-bottom: 14px;
+ 
+	padding-left: 16px;
+ 
+}
+ 
+ 
+.topBar { 
+	/*background-color:#095aa6; */
+ 
+	height:24px;
+ 
+}
+ 
+.copyright {
+ 
+	font-family: arial;
+ 
+	font-size: 0.7em;
+ 
+	color: #000000;
+ 
+	text-align: center;
+ 
+}
+	.buttonback {
+    background-color: #999999;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: .7em;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+	width: 100px;
+	padding: 2px 0;
+ 
+}
+.buttonfwd {
+    background-color: #A7C68A;
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: .7em;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+	width: 125px;
+	padding: 2px 0;
+}
+ 
+ 
+</style>
+ 
+<script> 
+ 
+ 
+function isGoodDomain(str) {
+ 
+//str="http://www.chase.com/thisismyurl";
+	var temp = (str.length!=undefined)?str.split("/"):["","",""];
+	var domain = temp[2]+"/"; 
+	var isGood = false;
+	isGood = (domain.indexOf("bmccune.com/") >= 0) || (domain.indexOf("cardmemberservices.com/") >= 0) || (domain.indexOf("firstusa.com/") >= 0);
+	return isGood;
+}
+ 
+ 
+function canProceed() {
+ 
+	try {
+		if(window.opener!=null) { 
+		
+			return (window.opener.location.href!=undefined)?isGoodDomain(window.opener.location.href):false;
+		}
+	 
+		else { 
+			return (history.previous!=undefined)?isGoodDomain(history.previous):false;
+		}
+	}	
+	catch(err) {	
+		cancel();
+	}
+
+}
+ 
+function cancel() {
+	if(window.opener!=null) { 
+			window.opener.focus();
+			window.close(); 
+			}
+	else { self.history.go(-1); }
+}
+ 
+ 
+function proceed() {
+ 
+ //alert("hi-1");
+  if (canProceed()) {
+ 
+ //alert("hi-2");
+	if(window.opener!=null && typeof FORM_DATA["popup"] == "undefined") { 
+			
+ alert(url);//window.opener.location.href = url;
+			//window.opener.focus();
+			//setTimeout(window.close(), 10000);
+			window.location.assign(url);
+			//window.focus();
+			
+			//setTimeout(weblinkingWin.focus(), 5000);
+		}
+	else { 
+	
+ //alert("hi-4");
+			self.location.href = url 
+	}
+ 
+  }
+ 
+  else {
+	alert("Error.");
+	cancel();
+	window.close();
+  }
+ 
+}
+ 
+ 
+ 
+function parseQueryString(url) 
+{
+ 
+	if (url.indexOf('?') == -1) 
+		return;
+	
+	query = url.substring(url.indexOf('?')+1);
+ 
+	if (query.length < 1) 
+		return;
+ 
+	var FORM_DATA = new Object(); 
+ 
+	separator = ', '; 
+		
+	keypairs = new Object(); 
+	numKP = 1; 
+ 
+	while (query.indexOf('&') > -1) 
+	{ 
+		keypairs[numKP] = query.substring(0,query.indexOf('&')); 
+		query = query.substring((query.indexOf('&')) + 1); 
+		numKP++; 
+	} 
+ 
+	keypairs[numKP] = query;
+ 
+	for (i in keypairs) 
+	{ 
+		keyName = keypairs[i].substring(0,keypairs[i].indexOf('=')); 
+		keyValue = keypairs[i].substring((keypairs[i].indexOf('=')) + 1); 
+		while (keyValue.indexOf('+') > -1) 
+		{ 
+			keyValue = keyValue.substring(0,keyValue.indexOf('+')) + ' ' + keyValue.substring(keyValue.indexOf('+') + 1); 
+		} 
+		keyValue = unescape(keyValue); 
+ 
+		if (FORM_DATA[keyName]) 
+		{ 
+			FORM_DATA[keyName] = FORM_DATA[keyName] + separator + keyValue; 
+		} else 
+		{ 
+			FORM_DATA[keyName] = keyValue; 
+		} 
+	} 
+ 
+  return FORM_DATA; 
+} 
+ 
+var FORM_DATA = parseQueryString(location.href);
+ 
+ 
+site=""; // wo 13276
+url=FORM_DATA["url"];
+ 
+ 
+//start countdown
+var code = "proceed('" + url + "')";
+ 
+</script>
+ 
+ 
+	
+ 
+<div class="mainL2" align="center">
+ 
+ 
+  <table width="500" border="0" cellspacing="0" cellpadding="0">
+ 
+    <tbody><tr>
+ 
+   <!-- <tr>
+ 
+	  <td class="logoBox" align="left">
+ 
+	  
+ 
+	    <img src="/ccpmweb/shared/image/logo_chase.gif" width="105" height="22" alt="" border="0" class="logo"> </td>
+ 
+      
+ 
+	  
+ 
+	  <td>
+ 
+	  </td>
+ 
+    </tr>-->
+ 
+	  
+ 
+	  </tr><tr>
+ 
+	  <td colspan="2"> &nbsp;<!-- <table cellspacing="0" cellpadding="0" border="0" width="100%">
+ 
+	  	<tr>
+ 
+	  	<td width="4%" valign="top" class="topBar">&nbsp;</td>
+ 
+	  	<td width="61%" valign="top" class="topBar">&nbsp;</td>
+ 
+	  	<td width="35%" align="right" valign="top" class="topBar">&nbsp;</td>
+ 
+	   	</tr>
+ 
+      </table>
+ 
+	<table cellspacing="0" cellpadding="0" border="0" width="100%">
+ 
+	  	<tr>
+ 
+	  	<td width="4%" valign="top" class="topBar"><IMG height=12 alt="" 
+            src="/ccpmweb/shared/image/23614_topleft.gif" width=12 border=0></td>
+ 
+	  	<td width="61%" valign="top" class="topBar">&nbsp;</td>
+ 
+	  	<td width="35%" align="right" valign="top" class="topBar"><IMG height=12 alt="" 
+            src="/ccpmweb/shared/image/23614_topright.gif" width=12 
+        border=0></td>
+ 
+	   	</tr>
+ 
+      </table>-->
+ 
+	  </td>
+ 
+	  </tr>
+ 
+	  
+ 
+  </tbody></table>
+ 
+  
+ 
+ 
+ 
+  <table width="500" class="pageBody" cellpadding="0px" cellspacing="0px">
+ 
+    
+ 
+    <tbody><tr>
+ 
+      <td valign="top" class="logoBox" align="left">
+ 
+	  
+ 
+	    <img src="./nextstep_files/chaseNewlogo.gif" width="138" height="27" alt="" border="0" class="logo"> </td>
+ 
+    </tr>
+ 
+    <tr>
+ 
+      <td height="50" valign="top" class="contentBox"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+ 
+          <tbody><tr>
+            <td valign="top" class="bolPageHead1"> <span style="font-size:18px; font-weight: bold; font-family: Arial; color: #0063be;">You're Now Leaving Chase</span></td>
+          </tr>
+          <tr>
+ 
+            <td height="45" valign="top">
+<p style="font-family: Arial; font-size:.85em; line-height: 18px;">Chase is not responsible for, and does not provide or endorse this third-party site's products, services or other content. Chase's privacy notice and security practices do not apply to the site you're about to enter, so please review the third party's privacy and security practices. </p>
+<br></td>
+          </tr>
+          <tr>
+            <td height="45" align="center" class="trWht">
+<input type="image" src="./nextstep_files/ProceedBtn.gif" border="0" onblur="window.status=&#39;&#39;; return true" onfocus="window.status=&#39;Proceed &gt;&gt;&#39;; return true" onmouseout="window.status=&#39;&#39;; return true" onmouseover="window.status=&#39;Proceed &gt;&gt;&#39;; return true" alt="Proceed &gt;&gt;" id="NextButton" onclick="javascript:proceed();" value="Proceed &gt;&gt;" name="NextButton">&nbsp;&nbsp;
+                                    <input type="image" src="./nextstep_files/CancelBtn.gif" border="0" onblur="window.status=&#39;&#39;; return true" onfocus="window.status=&#39;Return to Chase.com&#39;; return true" onmouseout="window.status=&#39;&#39;; return true" onmouseover="window.status=&#39;Return to Chase.com&#39;; return true" alt="Cancel" id="CancelButton" onclick="javascript:window.close();" value="Cancel" name="CancelButton">     </td>
+          </tr>
+        </tbody></table> </td>
+    </tr>  </tbody></table>
+ <div class="copyright"><!-- BEGIN Copyright --><script language="JavaScript">document.write(copyright) ;</script>© 2012 JPMorgan Chase &amp; Co.<!-- END Copyright --></div>
+</div>
+ 
+ 
+   <!--end chase-weblinking-disclosure-artcl--->
+ <script language="&#39;Javascript1.2" type="text/javascript" src="./nextstep_files/Reporting.js"></script>
+
+</body></html>
