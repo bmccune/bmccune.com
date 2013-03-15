@@ -1,0 +1,15 @@
+{#segment}
+	<div class="chaseui-utilitynav chaseui-segmentnav">		
+		<ul>
+			{#listitems}<li>{content}{~n}</li>{/listitems}
+		</ul>
+{:else}
+	<div class="chaseui-utilitynav">
+{bob}	
+{/segment}
+	
+	</div>
+
+
+
+        

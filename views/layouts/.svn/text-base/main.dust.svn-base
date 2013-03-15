@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="Author" content="JP Morgan Chase" />
+	<meta name="viewport" content="width=1024" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<title>{+title}My Site{/title}</title>
+</head>
+<body>
+	<img class="body-image" src="http://prototype.web.bankone.net/images/wav-1-option-1-bg.png" />
+	<!-- START PAGE HEADER -->
+		{>"widgets/pageheader"/}
+			{<pageheader_copy}
+			{/pageheader_copy}
+	<!-- END PAGE HEADER -->
+	<!-- START PAGE BODY -->
+		<div id="chaseui-pagebody">
+			{+html_body}
+			{/html_body}
+		</div>
+	<!-- END PAGE BODY -->
+	<!-- START PAGE FOOTER -->
+		<div id="footer">{+copy}Copyright{/copy}</div>
+	<!-- END PAGE FOOTER -->
+</body>
+</html>

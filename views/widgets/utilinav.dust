@@ -1,0 +1,202 @@
+<div class="chaseui-utilitynav chaseui-segmentnav">
+    <nav id="static-nav">
+        <div class="static-nav-wrapper">
+            <div class="parsys categorylink categorylinks">
+                <ul>
+                    <li>
+                        <a data-category="personal" class="categoryLink_0 chaseanalytics-track-link selected" href="https://www.chase.com" data-pt-name="hd_personal_home">
+                    Personal<span class="accessible-text">&nbsp;home page (current section)</span>
+                        </a>
+                        <span class="spacer" aria-hidden="true">|</span>
+                        <input type="hidden" id="channel" value="Personal">
+                        <input type="hidden" id="selected_channel0" value="https://www.chase.com">
+                    </li>
+                    <li>
+                        <a data-category="business" class="categoryLink_1 chaseanalytics-track-link" href="https://www.chase.com/business-banking" data-pt-name="hd_business_home">
+                    Business<span class="accessible-text">&nbsp;home page</span>
+                        </a>
+                        <span class="spacer" aria-hidden="true">|</span><input type="hidden" id="channel" value="Business">
+                        <input type="hidden" id="selected_channel1" value="https://www.chase.com/business-banking">
+                    </li>
+                    <li>
+                        <a data-category="commercial" class="categoryLink_2 chaseanalytics-track-link" href="https://www.chase.com/commercial" data-pt-name="hd_commercial_home">
+                    Commercial<span class="accessible-text">&nbsp;home page</span>
+                        </a>
+                        <input type="hidden" id="channel" value="Commercial">
+                        <input type="hidden" id="selected_channel2" value="https://www.chase.com/commercial">
+                    </li>
+                </ul>   
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="chaseui-utilitynav">
+    <nav id="utility-nav">
+                            <ul><li>
+                            <div class="utility-nav-container">
+                            <div class="branchlocator"><span class="chaseui-contexthelpcontainer">
+       <a class="chasejs-flyoutlink chaseui-noicon" data-width="424px" data-arrowpos="bottom-center" href="#">
+    
+       Find a Branch or ATM<span class="accessible-text">&nbsp;(Opens overlay)</span></a>
+       <span class="chaseui-contexthelpcontent">
+       <span class="accessible-text">Begin overlay</span>
+        <!-- BEGIN close button -->
+          <a class="chaseui-button chasejs-flyoutclose chaseui-flyoutclose chaseui-icon-close" href="#"><span class="chaseui-icons chaseui-button-icon"><img src="/etc/designs/chasecom/images/swat-sprite.png" alt="Close overlay" width="0" height="1"></span></a>
+        <!-- end close button -->
+     
+       <div class="chaseui-contentpanel chaseui-contentpanel-plain" data-pt-title="">
+            <div class="chaseui-contentpanelheader">
+             
+                <div class="chaseui-contentpanelheader-left">
+                    <h2>Find a Branch or ATM</h2>
+                </div>
+                <div class="chaseui-contentpanelheader-right">
+                     &nbsp;
+                </div>
+            </div>
+             <script>
+             function onSubmitBranchLocator(){
+					if(!!window.CHASE &&!!window.CHASE.analytics && !!window.CHASE.analytics.trackCustomLink){
+                       CHASE.analytics.trackCustomLink("hd_locate");
+                }
+               
+               return true;
+             }
+             </script> 
+                  
+            <div class="chaseui-contentpanelcontent chaseui-history-flyout">
+                <form method="get" action="https://locator.chase.com/LocatorAction.do" onsubmit="return onSubmitBranchLocator()">
+                    <div class="chaseui-sitesearch">
+                        <div class="type-ahead-search">
+                            <label for="find-branch-atm">
+                               <span class="accessible-text">Search by ZIP code, address, or city and state…</span>
+                            </label>
+                              <input id="find-branch-atm" class="chasejs-cleardefault chaseui-value-isdefault" onblur="if(this.value==''){this.value='Search by ZIP code, address, or city and state';this.style.fontStyle='italic'}" onfocus="this.value='';this.style.fontStyle='normal'" name="fullAddress" value="Search by ZIP code, address, or city and state…" type="text">
+                            <input id="searchCustom__deepLinking" type="hidden" name="searchCustom__deepLinking" value="true">
+                       </div>
+                    </div>
+                    <div class="chaseutil-clear">
+                         &nbsp;
+                    </div>
+                    <div class="chaseui-functionpanel">
+
+                        <div class="chaseui-functionpanelheader">
+                            <div class="float-left textLeft">
+                                <a class="chaseanalytics-track-link" href="https://locator.chase.com/?advanced=true" data-pt-name="hd_locate_advanced">
+                                        Advanced Search
+                                        &nbsp;<span aria-hidden="true">»</span>
+                                    </a>
+                                </div>
+                            <button hoverclass="chaseui-button-hover chaseui-buttonemphasized-hover" type="submit" class="chaseanalytics-track-link chaseutil-marginleft chaseui-button chaseui-buttonemphasized chaseui-button-hover chaseui-buttonemphasized-hover" data-pt-name="hd_locate">
+                                   <span class="chaseui-buttoncontents"><span>
+                                   <span class="accessible-text">Submits search request.</span>
+                                   Search</span></span>
+                              </button>
+                              
+                            </div>
+    
+                    </div>
+                </form>
+            </div>
+    
+        
+            <div class="chaseui-cornerbottom">
+                <div class="chaseui-cornerbottomleft">
+                </div>
+                <div class="chaseui-cornerbottomright">
+                </div>
+            </div>
+        </div>
+        <span class="accessible-text">End overlay</span>
+    </span></span>
+
+</div>
+</div>
+                            <div class="utility-nav-container">
+                                <span class="spacer" aria-hidden="true">|</span>
+                            </div>
+                            </li>
+                            <li>
+                            <div class="utility-nav-container">
+                             <div class="parsys iparsys contactus"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="parsys iparsys contactus"><div class="section"><div class="parbase contactus"><a class="chasejs-flyoutlink chaseui-contactlink" data-width="379px" data-arropos="top-center" href="#">
+		Contact Us<span class="accessible-text">&nbsp;(Opens overlay)</span>
+	</a>
+	<!-- BEGIN  -->
+	<span class="chaseui-contexthelpcontent">
+	   <span class="accessible-text">Begin Overlay.</span>
+		<!-- BEGIN close button -->
+
+			<a class="chaseui-button chasejs-flyoutclose chaseui-flyoutclose chaseui-icon-close" href="#" tabindex="0">
+			<span class="chaseui-icons chaseui-button-icon">
+				<img alt="Close overlay" width="0" height="1" src="/etc/designs/chasecom/images/swat-sprite.png">
+			</span>
+			</a>
+
+
+		 <!-- end close button -->
+		<!-- BEGIN flyout contents -->
+		<span class="chasejs-contexthelp-closebody">
+
+			<div class="contact-us chaseui-contextual-content">
+
+			<div class="contact-us-wrapper">
+				<h2>Contact Us</h2>
+				<div class="top-layer">
+						<div class="text">
+						<p><strong>We're available to help you.</strong><br> Contact us by email, phone or mail.</p>
+						</div>	
+						
+						<div class="clear"></div>
+					</div>
+				<div class="action-layer">
+						<div class="text">
+						<p><span class="chaseui-linklist-items"><a href="https://www.chase.com/online/services/customer-service-support.htm" class="sliding-door-button chaseanalytics-track-link " data-class="positioned-link" data-accessible-text=" a list of all contact numbers." data-pt-name="hd_contactus">Contact us<span class="accessible-text">&nbsp;( a list of all contact numbers.)</span></a></span>&nbsp;<span aria-hidden="true" class="chaseui-linklist-bullet">»</span></p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				<div class="shadow"></div>
+				<div class="icon-layer">
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			</div>
+
+	</span>
+	<!-- end flyout contents -->
+	<span class="accessible-text">End Overlay.</span></span>
+	<!-- END -->
+</div>
+</div></div>
+</div></div>
+</div>
+                            <div class="utility-nav-container">
+                                <span class="spacer" aria-hidden="true">|</span>
+                            </div>
+                            </li>
+                            <li>
+                              <div class="utility-nav-container">
+                                 <div class="parsys lang"><a lang="es" class="chaseanalytics-track-link locale-selector-link" data-locale="us_es" href="http://www.chase.com/index.jsp?pg_name=ccpmapp/spanish/home/page/spanish_home" data-pt-name="hd_es">En Español</a>
+        <input type="hidden" id="language_text" value="En Español|es">
+        <input type="hidden" id="language_url" value="http://www.chase.com/index.jsp?pg_name=ccpmapp/spanish/home/page/spanish_home">
+    <script type="text/javascript">
+  require( [ 'jquery', 'site/components/language-selector' ], function( $, LanguageSelector ){
+
+      //Amol: commenting this: please review
+      //LanguageSelector.checkCookie();
+    
+     $('.locale-selector-link').click(function(){
+        LanguageSelector.setLocale($(this));
+      });
+         
+  } );
+        
+  </script>
+ 
+  </div>
+</div>
+                            </li>
+                            </ul>
+                        </nav>
+                    </div>

@@ -1,0 +1,9 @@
+<div class="logo-section">
+    <section id="logo-section">
+        <p>
+            <a href="https://www.chase.com" class="chaseanalytics-track-link" data-pt-name="chaselogo">
+                <img alt="Chase.com home page" src="http://chase.com/etc/designs/chasecom/images/rumba_sw-logo-section.png">
+            </a>
+        </p>
+    </section>
+</div>

@@ -1,0 +1,22 @@
+<div class="chaseui-utilitynav chaseui-segmentnav">		
+	<ul >
+	
+	</ul>
+</div>
+{?tags}<ul>{~n}{#tags}{~s} <li>{.}</li>{~n}{/tags}</ul>{:else}No Tags!{/tags}{~n}
+{^likes}No Likes!{:else}<ul>{~n}{#likes}{~s} <li>{.}</li>{~n}{/likes}</ul>{/likes}
+
+
+
+
+        		<ul class="nav-list primary-nav">
+			<li class="first selected">
+				<a href="/segment_home/personal">Personal</a>
+			</li>
+			<li class="">
+				<a href="/segment_home/business">Business</a>
+			</li>
+			<li class="last ">
+				<a href="/segment_home/commercial">Commercial</a>
+			</li>
+		</ul>

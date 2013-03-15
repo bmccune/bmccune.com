@@ -1,0 +1,87 @@
+{>"layouts/main"/}
+
+{<title}{title}{/title}
+
+{<html_body}
+    <!--[if lt IE 9]>
+        <p class="chromeframe">
+            You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
+        </p>
+    <![endif]-->
+    <div id="outer-wrap">
+	    <div id="inner-wrap">
+		<header id="top" role="banner">
+		    <div class="container">
+		        <h1 class="block-title">
+		        	<img src="http://bmccune.com/img/page_logo.png" alt="Brian McCune Logo" />
+		        </h1>
+		        <a class="nav-btn" id="nav-open-btn" href="#nav"><i class="icon-list"></i><span>Site Navigation</span></a>
+		    </div>
+		</header>
+		{>"widgets/megamenu"/}
+        <div class="container">
+        <div class="hero-unit">
+            <h1 class="hidden-phone">Hello I'm Brian McCune!</h1>
+                <p>I've been building and designing websites for a long time. You might notice, that my site isn't perfect yet. Please excuse us as we are doing a little spring cleaning. We will be back up and running in no time. In the meantime feel free to learn more about me, Brian McCune on linked-in, facebook, twitter, or github</p>             
+            <div class="btn-group hidden-phone">
+                <a class="btn btn-primary btn-large" href="http://www.linkedin.com/pub/brian-mccune/11/483/44">
+                    <i class="icon-linkedin-sign"></i> Linked-In
+                </a>
+                <a class="btn btn-primary btn-large" href="https://www.facebook.com/brian.mccune">
+                    <i class="icon-facebook-sign"></i> Facebook
+                </a>
+                <a class="btn btn-primary btn-large" href="https://twitter.com/Brian_McCune">
+                    <i class="icon-twitter-sign"></i> Twitter
+                </a>
+                <a class="btn btn-primary btn-large" href="https://github.com/bmccune">
+                    <i class="icon-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="span4">
+                    <h2>Responsive Web Design</h2>
+                    <p>Are you looking for a single website, that works on desktops, tablets, mobile phones, and anything else the future might bring. Well then you want responsive web design, and I can do that. Want to give it a try? Just resize your browser window right now! My entire site was built with responsive design.</p>
+                    <p><a class="btn" href="#">Learn More &raquo;</a></p>
+                </div>
+                <div class="span4">
+                    <h2>HTML5 / CSS3</h2>
+                    <p>So you've heard of HTML5 and CSS3, maybe you know what it is and maybe you do not. Either way every page I build has the latest techonology.</p><p> But what does it mean for a business? It means you get a site that works everywhere and looks great. Search engines like google.com love HTML5 because it makes your content more relevant. Customers love CSS3 because it makes your site beautiful. You will love them both for those same reasons and the fact that it's quicker to develop which means it's cheaper too.</p>
+                    <p><a class="btn" href="#">Learn More &raquo;</a></p>
+               </div>
+                <div class="span4">
+                    <h2>JavaScript / jQuery</h2>
+                    <p>Without Javascript your site won't be very interactive, javascript is responsible for everything from modals, slideshows, animation, ajax content loading, I could go on and on.</p><p>I've been writing javascript for over 10 years now, and use the jQuery library to handle cross browser support and the vast library of plugins the community has created. This gives me the ability to make a completely custom site much faster then if I had written it without the jQuery library.</p>
+                    <p><a class="btn" href="#">Learn More &raquo;</a></p>
+                </div>
+            </div>
+        </div> <!-- /container -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="span2">
+                        <img src="img/footer_html5_w.png" />
+                    </div>
+                    <div class="span2">
+                        <img style="margin-top:10px;" src="img/footer_node_w.png" />
+                    </div>
+                    <div class="span2">
+                        <img src="img/footer_html5_w.png" />
+                    </div>
+                    <div class="span2">
+                        <img style="margin-top:10px;" src="img/footer_node_w.png" />
+                    </div>
+                    <div class="span2">
+                        <img src="img/footer_html5_w.png" />
+                    </div>
+                    <div class="span2">
+                        <img style="margin-top:10px;" src="img/footer_node_w.png" />
+                    </div>
+                </div>
+            </div>
+        </footer>
+{/html_body}
+
+{<copy}{copy|s}{/copy}
