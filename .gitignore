@@ -3,3 +3,4 @@
 .ssh/
 .vim/
 .viminfo
+.npm/

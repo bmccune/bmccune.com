@@ -22,7 +22,7 @@
         <div class="container">
         <div class="hero-unit">
             <h1 class="hidden-phone">Hello I'm Brian McCune!</h1>
-                <p>I've been building and designing websites for a long time. You might notice, that my site isn't perfect yet. Please excuse us as we are doing a little spring cleaning. We will be back up and running in no time. In the meantime feel free to learn more about me, Brian McCune on linked-in, facebook, twitter, or github</p>             
+                <p>Test I've been building and designing websites for a long time. You might notice, that my site isn't perfect yet. Please excuse us as we are doing a little spring cleaning. We will be back up and running in no time. In the meantime feel free to learn more about me, Brian McCune on linked-in, facebook, twitter, or github</p>             
             <div class="btn-group hidden-phone">
                 <a class="btn btn-primary btn-large" href="http://www.linkedin.com/pub/brian-mccune/11/483/44">
                     <i class="icon-linkedin-sign"></i> Linked-In
