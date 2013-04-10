@@ -61,23 +61,32 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="span2">
-                        <img src="img/footer_html5_w.png" />
+                    <div class="span2 tall">
+                        <a href="http://www.w3.org/html/">
+                            <img src="img/footer_html5_w.png" style="margin-top: 8px;">
+                        </a>
+                    </div>
+                    <div class="span2 long">
+                        <a href="http://nodejs.org/">
+                            <img style="margin-top: 25px;" src="img/footer_node_w.png">
+                        </a>
+                    </div>
+                    <div class="span2 long">
+                        <a href="http://mediatemple.net/">
+                            <img src="img/footer_mt.png" style="margin-top: 18px;">
+                        </a>
+                    </div>
+                    <div class="span2 tall">
+                        <a href="http://gruntjs.com/">
+                            <img style="padding-bottom: 20px;" src="img/footer_grunt.png">
+                        </a>
+                    </div>
+                    <div class="span2 long">
+                        <a href="http://lesscss.org/">
+                            <img src="img/footer_less.png" style="margin-top: 15px;">
+                        </a>
                     </div>
                     <div class="span2">
-                        <img style="margin-top:10px;" src="img/footer_node_w.png" />
-                    </div>
-                    <div class="span2">
-                        <img src="img/footer_html5_w.png" />
-                    </div>
-                    <div class="span2">
-                        <img style="margin-top:10px;" src="img/footer_node_w.png" />
-                    </div>
-                    <div class="span2">
-                        <img src="img/footer_html5_w.png" />
-                    </div>
-                    <div class="span2">
-                        <img style="margin-top:10px;" src="img/footer_node_w.png" />
                     </div>
                 </div>
             </div>
