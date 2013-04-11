@@ -12,7 +12,7 @@ var express = require('express')
 var app = express();
 
 dust.makeBase({
-	copy: '&copy; 2013 Nobody LLC'
+	copy: '&copy; 2013 Nobody'
 });
 
 app.engine('dust', cons.dust);
