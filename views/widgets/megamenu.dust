@@ -2,17 +2,17 @@
 		        <div class="block">
 		            <h2 class="block-title">Pages</h2>
 		            <ul>
-		                <li class="is-active">
+		                <li>
 		                    <a href="/">Home</a>
 		                </li><!--
 		             --><li>
-		                    <a href="/pages/portfolio">Portfolio</a>
+		                    <a href="/portfolio">Portfolio</a>
 		                </li><!--
 		             --><li>
-		                    <a href="/brian-mccune.php">About</a>
+		                    <a href="/brian-mccune">About</a>
 		                </li><!--
 		             --><li>
-		                    <a href="/pages/contact">Contact</a>
+		                    <a href="/contact">Contact</a>
 		                </li>
 		             
 		            </ul>

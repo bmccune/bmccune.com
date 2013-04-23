@@ -11,36 +11,45 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <link rel="stylesheet" href="http://bmccune.com/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         
         <style>
             body {
                 padding-bottom: 40px;
             }
+            .active{background-color:#777;}
         </style>
-        <link rel="stylesheet" href="http://bmccune.com/css/bootstrap-responsive.min.css">
-        <link rel="stylesheet" href="http://bmccune.com/css/main.css">
-        <link rel="stylesheet" href="http://bmccune.com/css/font-awesome.css">
+        <link rel="stylesheet" href="./css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/font-awesome.css">
 
         <!--[if lt IE 9]>
-            <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
+            <script src="./js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
         <![endif]-->
     </head>
     <body>
             {+html_body}
 			{/html_body}
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="./js/jquery-1.9.1.min.js"></script>
+        <script src="./js/jquery-migrate-1.1.1.min.js"></script>
+        
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 
-        <script src="http://bmccune.com/js/bootstrap.min.js"></script>
-        <script src="http://bmccune.com/js/modernizr.custom.57243.js"></script>
-        <script src="http://bmccune.com/js/main.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/modernizr.custom.57243.js"></script>
+        <script src="./js/main.js"></script>
 
+       
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
+            $(function(){
+                var url = window.location.pathname;
+                $('#nav ul li a').addClass(function(index) {
+                    if($(this).attr('href') == url){
+                
+                        return "active";
+                   }
+                });
+            });
         </script>
 	    </div>
         </div>

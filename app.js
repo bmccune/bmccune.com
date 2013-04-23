@@ -7,6 +7,7 @@ var express = require('express')
   , dust = require('./node_modules/express-dust/lib/dust')
   , cons = require('consolidate')
   , routes = require('./routes')
+  , page = require('./routes/pages')
   , http = require('http')
   , path = require('path');
 var app = express();
@@ -36,7 +37,15 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
+// Index Page
 app.get('/', routes.index);
+
+// Pages
+app.get('/portfolio', page.portfolio);
+app.get('/brian-mccune', page.bio);
+app.get('/contact', page.contact);
+
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));

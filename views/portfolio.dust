@@ -1,0 +1,138 @@
+{>"layouts/main"/}
+
+{<title}{title}{/title}
+
+{<html_body}
+    <!--[if lt IE 9]>
+        <p class="chromeframe">
+            You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
+        </p>
+    <![endif]-->
+    <div id="outer-wrap">
+	    <div id="inner-wrap">
+		<header id="top" role="banner">
+		    <div class="container">
+		        <h1 class="block-title">
+		        	<img src="./img/page_logo.png" alt="Brian McCune Logo" />
+		        </h1>
+		        <a class="nav-btn" id="nav-open-btn" href="#nav"><i class="icon-list"></i><span>Site Navigation</span></a>
+		    </div>
+		</header>
+		{>"widgets/megamenu"/}
+        <div class="container">
+        <div class="hero-unit">
+            <h1 class="hidden-phone">My Work</h1>
+                <p>I've done a lot in my life, and a good part of things I've done have been on the web. Below you'll find a curated list of work I've done. Feel free to explore it and by all means if you have any questions use the contact page to get in touch!</p>             
+            
+        </div>
+
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="span4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x200" alt="" style="width:300px;height:170px;">
+                      <h3>Thumbnail label</h3>
+                      <p>Thumbnail caption...</p>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x200" alt="" style="width:300px;height:170px;">
+                      <h3>Thumbnail label</h3>
+                      <p>Thumbnail caption...</p>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x200" alt="" style="width:300px;height:170px;">
+                      <h3>Thumbnail label</h3>
+                      <p>Thumbnail caption...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x200" alt="" style="width:300px;height:170px;">
+                      <h3>Thumbnail label</h3>
+                      <p>Thumbnail caption...</p>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x200" alt="" style="width:300px;height:170px;">
+                      <h3>Thumbnail label</h3>
+                      <p>Thumbnail caption...</p>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x200" alt="" style="width:300px;height:170px;">
+                      <h3>Thumbnail label</h3>
+                      <p>Thumbnail caption...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x200" alt="" style="width:300px;height:170px;">
+                      <h3>Thumbnail label</h3>
+                      <p>Thumbnail caption...</p>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x200" alt="" style="width:300px;height:170px;">
+                      <h3>Thumbnail label</h3>
+                      <p>Thumbnail caption...</p>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x200" alt="" style="width:300px;height:170px;">
+                      <h3>Thumbnail label</h3>
+                      <p>Thumbnail caption...</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div> <!-- /container -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="span2 tall">
+                        <a href="http://www.w3.org/html/">
+                            <img src="img/footer_html5_w.png" style="margin-top: 8px;">
+                        </a>
+                    </div>
+                    <div class="span2 long">
+                        <a href="http://nodejs.org/">
+                            <img style="margin-top: 25px;" src="img/footer_node_w.png">
+                        </a>
+                    </div>
+                    <div class="span2 long">
+                        <a href="http://mediatemple.net/">
+                            <img src="img/footer_mt.png" style="margin-top: 18px;">
+                        </a>
+                    </div>
+                    <div class="span2 tall">
+                        <a href="http://gruntjs.com/">
+                            <img style="padding-bottom: 20px;" src="img/footer_grunt.png">
+                        </a>
+                    </div>
+                    <div class="span2 long">
+                        <a href="http://lesscss.org/">
+                            <img src="img/footer_less.png" style="margin-top: 15px;">
+                        </a>
+                    </div>
+                    <div class="span2">
+                    </div>
+                </div>
+            </div>
+        </footer>
+{/html_body}
+
+{<copy}{copy|s}{/copy}
