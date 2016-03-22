@@ -15,6 +15,13 @@
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
+    
+    $('.portfolio-box').bind('click', function(event){
+       var $parent = $(this);
+       var $details = $('.details');
+       $details.show();
+       event.preventDefault(); 
+    });
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
