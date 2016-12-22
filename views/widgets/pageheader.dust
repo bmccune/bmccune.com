@@ -1,4 +1,0 @@
-<div class="chaseui-pageheader">
-	{+pageheader_copy}
-	{/pageheader_copy}
-</div>
