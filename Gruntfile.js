@@ -28,6 +28,15 @@ module.exports = function(grunt) {
                 }
             }
         },
+        intern: {
+            development: {
+                options: {
+                  runType: 'client', // defaults to 'client'
+                  config: 'tests/intern',
+                  reporters: [ 'Console']
+                }
+             }
+        },
         banner: '/*!\n' +
             ' * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
             ' * Copyright 2013-<%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
@@ -67,8 +76,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('intern');
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify', 'less']);
+    grunt.registerTask('default', ['uglify', 'less', 'intern']);
 
 };
