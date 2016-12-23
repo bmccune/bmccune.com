@@ -31,7 +31,7 @@ module.exports = function(grunt) {
         intern: {
             development: {
                 options: {
-                  runType: 'client', // defaults to 'client'
+                  runType: 'runner', // defaults to 'client'
                   config: 'tests/intern',
                   reporters: [ 'Console']
                 }
